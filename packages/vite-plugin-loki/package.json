@@ -1,8 +1,8 @@
 {
-  "name": "@svitejs/vite-plugin-template",
+  "name": "@bkoplin/vite-plugin-loki",
   "version": "0.0.0",
   "license": "MIT",
-  "author": "~~AUTHOR~~",
+  "author": "bkoplin",
   "private": true,
   "type": "module",
   "main": "dist/index.cjs",
@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/svitejs/vite-plugin-template.git",
-    "directory": "packages/vite-plugin-template"
+    "url": "git+https://github.com/bkoplin/vite-plugin-loki.git",
+    "directory": "packages/vite-plugin-loki"
   },
   "bugs": {
-    "url": "https://github.com/svitejs/vite-plugin-template/issues"
+    "url": "https://github.com/bkoplin/vite-plugin-loki/issues"
   },
-  "homepage": "https://github.com/svitejs/vite-plugin-template/tree/main/packages/vite-plugin-template#readme",
+  "homepage": "https://github.com/bkoplin/vite-plugin-loki/tree/main/packages/vite-plugin-loki#readme",
   "peerDependencies": {
     "vite": "^2.7.9"
   },

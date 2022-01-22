@@ -1,11 +1,11 @@
-# @svitejs/vite-plugin-template
+# @bkoplin/vite-plugin-loki
 
 PROJECT TAGLINE HERE
 
 ## Installation
 
 ```bash
-pnpm i -D @svitejs/vite-plugin-template
+pnpm i -D @bkoplin/vite-plugin-loki
 ```
 
 ## Usage
@@ -15,11 +15,11 @@ pnpm i -D @svitejs/vite-plugin-template
 ```ts
 // vite config
 import { defineConfig } from 'vite';
-import { pluginFunction } from '@svitejs/vite-plugin-template';
+import { loki } from '@bkoplin/vite-plugin-loki';
 
 export default defineConfig({
 	plugins: [
-		pluginFunction({
+		loki({
 			/* plugin options */
 		})
 	]
